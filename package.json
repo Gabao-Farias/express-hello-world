@@ -4,6 +4,7 @@
   "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
   "main": "server.js",
   "scripts": {
+    "preinstall": "ls && echo preinstall",
     "serve": "ls && echo serve",
     "start": "ls && echo start",
     "test": "echo \"Error: no test specified\" && exit 1"
